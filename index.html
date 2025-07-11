@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-JAYS AUTO-REPAIR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="navigation">
+                <div class="logo">
+                    <h2>G-JEY'S <br><span class="LOGO-1">AUTO</span>-<span class="LOGO-2">REPAIR</span></h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why">Why Us</a></li>
+                    <li><a href="#appointment">Appointment</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="hero-section">
+                <h1 class="hero-heading">Your Trusted Professional Car Repair & Maintenance</h1>
+                <p class="hero-paragraph">Welcome to G-JAYS Auto Repair, where your safety and satisfaction come first. We offer high-quality, affordable car repairs for all makes and models.</p>
+                <a href="#appointment" class="btn">Book Appointment</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+            </div>
+            
+            <div class="cards-section">
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Performance Check</h3>
+                        <p>A comprehensive check of your car's key systems to ensure optimal performance and safety on the road.</p>
+                        <a href="performance.html" class="card-btn">Learn More →</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Auto Repair</h3>
+                        <p>Expert repairs to keep your vehicle running smoothly. We fix everything from engine issues to electrical problems.</p>
+                        <a href="autorepair.html" class="card-btn">Learn More →</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Fleet Maintenance</h3>
+                        <p>Specialized maintenance programs for businesses with multiple vehicles to minimize downtime and maximize efficiency.</p>
+                        <a href="fleetmaintenance.html" class="card-btn">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why" class="why-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Us</h2>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-award"></i>
+                    <h3>Certified Technicians</h3>
+                    <p>Our team consists of certified professionals with years of experience in auto repair.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Fair Pricing</h3>
+                    <p>We offer competitive pricing without compromising on the quality of our services.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <h3>Quick Service</h3>
+                    <p>We value your time and strive to complete repairs as quickly as possible without sacrificing quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment-section">
+        <div class="container">
+            <div class="appointment-container">
+                <div class="appointment-content">
+                    <h2>Schedule an Appointment</h2>
+                    <p>Fill out the form and our team will contact you to confirm your appointment. We offer flexible scheduling to accommodate your busy life.</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> (416) 750-2106</p>
+                        <p><i class="fas fa-envelope"></i> gjeysauto@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 2207 Jane St, Toronto, ON M3M 1A5</p>
+                    </div>
+                </div>
+                
+                <div class="appointment-form">
+                    <!-- Form action will be replaced with your URL later -->
+                    <form id="appointmentForm" action="https://formsubmit.co/natalienogebremichael@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>  
+                        
+                        <div class="form-group">
+                            <label for="vehicle">Vehicle Make & Model</label>
+                            <input type="text" id="vehicle" name="vehicle" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="performance">Performance Check</option>
+                                <option value="repair">Auto Repair</option>
+                                <option value="fleet">Fleet Maintenance</option>
+                                <option value="other">Other Service</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Massage</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Request Appointment</button>
+                    </form>
+                    <div id="successMessage" class="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Appointment Requested Successfully!</h3>
+                        <p>We'll contact you shortly to confirm your appointment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>G-JEY'S AUTO-REPAIR</h3>
+                    <p>Your trusted partner for all auto repair and maintenance needs. We provide high-quality service with a focus on customer satisfaction.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why">Why Choose Us</a></li>
+                        <li><a href="#appointment">Appointment</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 2207 Jane St, Toronto, ON M3M 1A5</p>
+                        <p><i class="fas fa-phone"></i> (416) 750-2106</p>
+                        <p><i class="fas fa-envelope"></i> gjeysauto@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sat: 9AM - 7PM, Sat: 9AM - 3PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 G-JEY'S AUTO-REPAIR. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
